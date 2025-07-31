@@ -160,3 +160,4 @@ If images are not displaying after extraction:
 3. Ensure the app has proper permissions for camera and storage access
 4. If images are blank, it may be due to cross-origin security restrictions; check the renderjs implementation
 
+<img width="611" height="1089" alt="a2bf9645e0a4c79f6b32ffed8857c644" src="https://github.com/user-attachments/assets/a1179245-b768-4a9d-b3a1-d7ca15609617" />
