@@ -1,0 +1,21 @@
+{
+  "name": "video-frame-extractor",
+  "version": "1.0.0",
+  "description": "A UniApp application for extracting frames from videos",
+  "main": "main.js",
+  "scripts": {
+    "serve": "echo \"Please use HBuilderX to run this UniApp project\""
+  },
+  "keywords": [
+    "uniapp",
+    "video",
+    "frame",
+    "extraction"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "vue": "^2.6.14"
+  }
+}

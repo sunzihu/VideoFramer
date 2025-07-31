@@ -1,0 +1,18 @@
+{
+    "pages" : [
+        {
+            "path" : "pages/index",
+            "style" : {
+                "navigationBarTitleText" : "视频帧提取器",
+                "enablePullDownRefresh" : false
+            }
+        }
+      
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "视频帧提取器",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    }
+}

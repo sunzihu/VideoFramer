@@ -1,0 +1,63 @@
+{
+  "name": "视频帧提取器",
+  "appid": "",
+  "description": "一个用于从视频中提取帧的UniApp应用",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {},
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>"
+        ]
+      },
+      "ios": {
+        "NSCameraUsageDescription": "此应用需要使用相机来拍摄照片和视频",
+        "NSPhotoLibraryUsageDescription": "此应用需要访问相册来保存和选择媒体文件"
+      },
+      "sdkConfigs": {
+        "ad": {}
+      }
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "mp-alipay": {
+    "usingComponents": true
+  },
+  "mp-baidu": {
+    "usingComponents": true
+  },
+  "mp-toutiao": {
+    "usingComponents": true
+  },
+  "h5": {
+    "router": {
+      "base": "/"
+    },
+    "optimization": {
+      "treeShaking": {
+        "enable": true
+      }
+    }
+  }
+}
